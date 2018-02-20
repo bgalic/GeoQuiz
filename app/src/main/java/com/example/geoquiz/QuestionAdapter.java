@@ -45,11 +45,11 @@ public class QuestionAdapter extends BaseAdapter {
 
         Question current = questionList.get(position);
 
-        TextView tvItemQuestionPlace = (TextView) convertView.findViewById(R.id.tvItemQuestionPlace);
+        //TextView tvItemQuestionPlace = (TextView) convertView.findViewById(R.id.tvItemQuestionPlace);
         TextView tvItemQuestionQuestion = (TextView) convertView.findViewById(R.id.tvItemQuestionQuestion);
-        View vRectangle = (View) convertView.findViewById(R.id.vRectangle);
+        //View vRectangle = (View) convertView.findViewById(R.id.vRectangle);
 
-        tvItemQuestionPlace.setText(current.getPlace());
+        //tvItemQuestionPlace.setText(current.getPlace());
         tvItemQuestionQuestion.setText(current.getQuestion());
 
         return convertView;
